@@ -1,0 +1,18 @@
+/* pages/index.wxss */
+.weather{
+
+color: green;
+
+}
+
+.title{
+  font-size: 40px;
+  color: black;
+  right: 200rpx;
+}
+.print{
+  top: 200rpx;
+  font-size: 25px;
+  color:grey;
+  right: 20rpx;
+}
