@@ -1,6 +1,5 @@
 // 引用百度地图微信小程序JSAPI模块 
 var bmap = require('../libs/bmap-wx.js');
-
 Page({
   data: {
     weatherData: '',
@@ -21,7 +20,7 @@ Page({
       console.log("zec");
       var str = data.currentWeather[0].weatherDesc;
       console.log(str.indexOf("lei") != -1);
-      if (str.indexOf("晴") != -1||str.indexOf("雨")!=-1){
+      if (str.indexOf("雪") != -1||str.indexOf("雨")!=-1){
         that.setData({
           needmess:"1",
           

@@ -4,9 +4,7 @@
 <view class="weather"> 
   <text>{{weatherData}}</text> 
 </view>
-<view><text class="print">是否需要带伞</text></view>
-<view>
-<text>{{needmess}}</text>
-</view>
-<icon type="success" size="40"/>
-<icon type="clear" size="40"/>
+<view><text class="print">是否需要带伞</text>
+<icon wx:if="{{needmess==1}}" type="success" size="40"/>
+<icon wx:if="{{needmess==0}}" type="clear" size="40"/></view>
+

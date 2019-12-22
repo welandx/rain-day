@@ -1,18 +1,21 @@
 /* pages/index.wxss */
 .weather{
 
-color: green;
-
+color: rgb(255, 0, 0);
+font-weight:bold;
 }
-
 .title{
   font-size: 40px;
-  color: black;
+  font-weight:bold;
+  font-family:"宋体";
+  color: rgb(250, 229, 229);
   right: 200rpx;
 }
 .print{
-  top: 200rpx;
-  font-size: 25px;
-  color:grey;
+  top: 20rpx;
+  font-size: 32px;
+  font-family:"宋体";
+  color:pink;
   right: 20rpx;
-}
+  }
+page{ background-size:100% 100%; background-image: url(http://source.upupoo.com/theme/1800056797/preview.jpg) }
