@@ -1,5 +1,5 @@
 # rain-day
-##part of a mature intelligent umbrella
+## part of a mature intelligent umbrella
 
 🍼利用百度地图获得天气信息
 
